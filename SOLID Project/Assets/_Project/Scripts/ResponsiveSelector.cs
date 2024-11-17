@@ -5,7 +5,7 @@ using UnityEngine;
 public class ResponsiveSelector : MonoBehaviour, ISelector
 {
     [SerializeField] private List<Selectable> selectables;
-    [SerializeField] private float threshold = 0.97f;
+    [SerializeField] private float threshold = 0.985f;
 
     private Transform _selection;
 
